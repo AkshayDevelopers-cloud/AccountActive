@@ -1,0 +1,9 @@
+<template>
+    <div>
+      <lightning-button label="Activate Account" onclick={activateAccount}></lightning-button>
+      <template if:true={displayMessage}>
+        <div class="slds-m-top_medium">{message}</div>
+      </template>
+    </div>
+  </template>
+  
